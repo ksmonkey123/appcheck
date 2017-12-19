@@ -1,4 +1,4 @@
-package ch.awae.serviceCheck.statistics;
+package ch.awae.appcheck.statistics;
 
 /**
  * A single time frame in the statistics.

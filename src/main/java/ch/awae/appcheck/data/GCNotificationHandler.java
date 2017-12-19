@@ -1,4 +1,4 @@
-package ch.awae.serviceCheck.data;
+package ch.awae.appcheck.data;
 
 import com.sun.management.GarbageCollectionNotificationInfo;
 import org.slf4j.Logger;

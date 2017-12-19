@@ -1,12 +1,13 @@
-package ch.awae.serviceCheck;
+package ch.awae.appcheck;
 
-import ch.awae.serviceCheck.api.CheckResponse;
-import ch.awae.serviceCheck.api.ICheckResponse;
-import ch.awae.serviceCheck.api.IChecker;
-import ch.awae.serviceCheck.checker.*;
-import ch.awae.serviceCheck.data.CheckerDataBean;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import ch.awae.appcheck.api.CheckResponse;
+import ch.awae.appcheck.api.ICheckResponse;
+import ch.awae.appcheck.api.IChecker;
+import ch.awae.appcheck.checker.*;
+import ch.awae.appcheck.data.CheckerDataBean;
 
 import javax.annotation.PostConstruct;
 import javax.ejb.EJB;

@@ -1,8 +1,9 @@
-package ch.awae.serviceCheck.checker;
+package ch.awae.appcheck.checker;
 
-import ch.awae.serviceCheck.api.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import ch.awae.appcheck.api.*;
 
 import javax.ejb.Timer;
 import javax.naming.InitialContext;

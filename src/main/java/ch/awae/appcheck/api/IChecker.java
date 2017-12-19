@@ -1,9 +1,9 @@
-package ch.awae.serviceCheck.api;
+package ch.awae.appcheck.api;
 
 /**
  * base interface for any checker.
  *
- * new checkers can be implemented and added to the {@link ch.awae.serviceCheck.RootCheckerBean}
+ * new checkers can be implemented and added to the {@link ch.awae.appcheck.RootCheckerBean}
  * to extend the checking functionality of AppCheck.
  *
  * There exists no pre-built enabling/disabling functionality for checks.
@@ -14,7 +14,7 @@ package ch.awae.serviceCheck.api;
  * @author Andreas Wälchli
  * @version 1.1
  *
- * @see ch.awae.serviceCheck.RootCheckerBean#addChecker(IChecker)
+ * @see ch.awae.appcheck.RootCheckerBean#addChecker(IChecker)
  */
 public interface IChecker {
 

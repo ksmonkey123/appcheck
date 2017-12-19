@@ -1,10 +1,11 @@
-package ch.awae.serviceCheck.checker;
+package ch.awae.appcheck.checker;
 
-import ch.awae.serviceCheck.api.CheckResponse;
-import ch.awae.serviceCheck.api.CheckResult;
-import ch.awae.serviceCheck.api.IChecker;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import ch.awae.appcheck.api.CheckResponse;
+import ch.awae.appcheck.api.CheckResult;
+import ch.awae.appcheck.api.IChecker;
 
 import java.lang.management.ManagementFactory;
 import java.lang.management.ThreadInfo;

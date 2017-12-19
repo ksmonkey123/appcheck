@@ -1,18 +1,19 @@
-package ch.awae.serviceCheck.checker;
+package ch.awae.appcheck.checker;
 
-import ch.awae.serviceCheck.api.CheckResponse;
-import ch.awae.serviceCheck.api.CheckResult;
-import ch.awae.serviceCheck.api.IChecker;
-import ch.awae.serviceCheck.data.GCDataContainer;
-import ch.awae.serviceCheck.statistics.StatSummary;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.util.Properties;
+import ch.awae.appcheck.api.CheckResponse;
+import ch.awae.appcheck.api.CheckResult;
+import ch.awae.appcheck.api.IChecker;
+import ch.awae.appcheck.data.GCDataContainer;
+import ch.awae.appcheck.statistics.StatSummary;
 
-import static ch.awae.serviceCheck.checker.CheckerUtilities.formatDataSize;
-import static ch.awae.serviceCheck.checker.CheckerUtilities.propagateResult;
-import static ch.awae.serviceCheck.checker.CheckerUtilities.formatDuration;
+import static ch.awae.appcheck.checker.CheckerUtilities.formatDataSize;
+import static ch.awae.appcheck.checker.CheckerUtilities.formatDuration;
+import static ch.awae.appcheck.checker.CheckerUtilities.propagateResult;
+
+import java.util.Properties;
 
 /**
  * GC checker

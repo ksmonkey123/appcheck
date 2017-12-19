@@ -1,4 +1,4 @@
-package ch.awae.serviceCheck.api;
+package ch.awae.appcheck.api;
 
 import java.io.Serializable;
 import java.util.List;

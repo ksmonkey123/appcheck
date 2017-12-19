@@ -1,4 +1,4 @@
-package ch.awae.serviceCheck.statistics;
+package ch.awae.appcheck.statistics;
 
 /**
  * A statistics period holds data for a limited amount of

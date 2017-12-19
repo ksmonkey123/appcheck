@@ -1,4 +1,4 @@
-package ch.awae.serviceCheck.statistics;
+package ch.awae.appcheck.statistics;
 
 /**
  * Base interface for a statistical summary of a data set

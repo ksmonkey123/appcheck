@@ -1,4 +1,4 @@
-package ch.awae.serviceCheck.checker;
+package ch.awae.appcheck.checker;
 
 import java.util.Properties;
 

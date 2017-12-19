@@ -1,12 +1,12 @@
-package ch.awae.serviceCheck.checker;
+package ch.awae.appcheck.checker;
 
-
-import ch.awae.serviceCheck.api.CheckResult;
-import ch.awae.serviceCheck.api.ICheckResponse;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.*;
+
+import ch.awae.appcheck.api.CheckResult;
+import ch.awae.appcheck.api.ICheckResponse;
 
 /**
  * Collection of utilities for the checkers

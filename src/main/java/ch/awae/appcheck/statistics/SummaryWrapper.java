@@ -1,4 +1,4 @@
-package ch.awae.serviceCheck.statistics;
+package ch.awae.appcheck.statistics;
 
 /**
  * Wrapper wrapping a statistics frame into a statistics summary

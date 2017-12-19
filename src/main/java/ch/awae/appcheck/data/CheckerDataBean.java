@@ -1,4 +1,4 @@
-package ch.awae.serviceCheck.data;
+package ch.awae.appcheck.data;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

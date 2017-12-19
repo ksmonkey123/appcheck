@@ -1,4 +1,4 @@
-package ch.awae.serviceCheck.api;
+package ch.awae.appcheck.api;
 
 /**
  * Binary result values for check responses.

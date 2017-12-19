@@ -1,10 +1,11 @@
-package ch.awae.serviceCheck.data;
+package ch.awae.appcheck.data;
 
-import ch.awae.serviceCheck.checker.CheckerUtilities;
-import ch.awae.serviceCheck.statistics.PeriodConfig;
-import ch.awae.serviceCheck.statistics.StatManager;
-import ch.awae.serviceCheck.statistics.StatSummary;
 import com.sun.management.GcInfo;
+
+import ch.awae.appcheck.checker.CheckerUtilities;
+import ch.awae.appcheck.statistics.PeriodConfig;
+import ch.awae.appcheck.statistics.StatManager;
+import ch.awae.appcheck.statistics.StatSummary;
 
 import java.io.IOException;
 import java.lang.management.MemoryUsage;

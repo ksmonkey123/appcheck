@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>ch.awae</groupId>
 	<artifactId>appcheck</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<name>ch.awae.appcheck</name>
 	<description>Performance Monitoring of JavaEE web applications</description>
 
