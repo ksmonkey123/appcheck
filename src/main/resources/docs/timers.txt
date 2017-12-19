@@ -1,0 +1,7 @@
+# a comment
+java:module/TestTimerEJB;myTimerTest
+java:module/TestTimerEJB;mySecondTimer
+java:module/TestTimerEJB;
+
+# a comment
+java:module/AnotherTimer;someTimer
